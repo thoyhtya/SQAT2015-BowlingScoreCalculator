@@ -120,3 +120,11 @@ RefactoringAction 1444824151863 TestBowlingScoreCalculator.java ADD void testGam
 RefactoringAction 1444824155885 TestBowlingScoreCalculator.java REMOVE testGameScore_is_81()/2 METHOD
 EditAction 1444824160645 BowlingGame.java 658 5 5 0
 EditAction 1444824166434 TestBowlingScoreCalculator.java 1465 5 28 3
+UnitTestCaseAction 1444824170251 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444824170252 TestBowlingScoreCalculator OK
+RefactoringAction 1444824223944 TestBowlingScoreCalculator.java ADD void testGameScore_is_81()/2 METHOD
+RefactoringAction 1444824275972 TestBowlingScoreCalculator.java RENAME testGameScore_is_81()/2=>void testGameScore_is_() METHOD
+RefactoringAction 1444824279499 TestBowlingScoreCalculator.java RENAME testGameScore_is_()=>void testGameScore_is_94() METHOD
+RefactoringAction 1444824283028 TestBowlingScoreCalculator.java RENAME testGameScore_is_94()=>void testGameScore_w__is_94() METHOD
+RefactoringAction 1444824284553 TestBowlingScoreCalculator.java RENAME testGameScore_w__is_94()=>void testGameScore_w_strike_is_94() METHOD
+EditAction 1444824300262 TestBowlingScoreCalculator.java 1943 6 40 4
