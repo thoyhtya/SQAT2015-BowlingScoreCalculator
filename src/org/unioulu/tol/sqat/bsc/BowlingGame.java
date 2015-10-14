@@ -21,7 +21,7 @@ public class BowlingGame {
 	public int score(){
 		int score = 0;
 		for(Frame asd : this.frames){
-			score += asd.score();
+			score = score + asd.score();
 		}
 		return score;
 	}
