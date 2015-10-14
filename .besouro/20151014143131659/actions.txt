@@ -273,3 +273,6 @@ EditAction 1444829107968 BowlingGame.java 1251 5 6 0
 UnitTestCaseAction 1444829116281 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444829116282 TestBowlingScoreCalculator FAIL
 EditAction 1444829124701 BowlingGame.java 1251 5 6 0
+UnitTestCaseAction 1444829128790 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444829128791 TestBowlingScoreCalculator FAIL
+EditAction 1444829340356 BowlingGame.java 1384 5 6 0

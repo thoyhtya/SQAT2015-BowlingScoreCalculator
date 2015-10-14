@@ -28,30 +28,34 @@ public class BowlingGame {
 		
 		for(int i=0; i<frames.size(); i++){	
 			Frame frame = this.frames.get(i);
+//			
+//			if(bonusFrame){
+//				Frame previusFrame = this.frames.get(i-1);
+//				
+//				if(i>2 && this.frames.get(i-2).isStrike()){
+//					score += frame.score();
+//				}
+//				
+//				if(previusFrame.isStrike()){
+//					score += frame.score();
+//				}else{
+//					score += frame.scoreFirstThrow();
+//				}
+//			}
 			
-			if(bonusFrame){
-				Frame previusFrame = this.frames.get(i-1);
-				
-				if(i>2 && this.frames.get(i-2).isStrike()){
-					score += frame.score();
-				}
-				
-				if(previusFrame.isStrike()){
-					score += frame.score();
-				}else{
-					score += frame.scoreFirstThrow();
-				}
+			if(frame.isStrike() || frame.isSpare()){
+				this.bonus = frame;
+			}else{			
+				score += frame.score();
 			}
 			
-			score += frame.score();
-			
-			if(frame.isStrike()){
-				bonusFrame = true;
-			}else if(frame.isSpare()){
-				bonusFrame = true;
-			}else{
-				bonusFrame = false;
-			}
+//			if(frame.isStrike()){
+//				bonusFrame = true;
+//			}else if(frame.isSpare()){
+//				bonusFrame = true;
+//			}else{
+//				bonusFrame = false;
+//			}
 		}
 		return score;
 	}
