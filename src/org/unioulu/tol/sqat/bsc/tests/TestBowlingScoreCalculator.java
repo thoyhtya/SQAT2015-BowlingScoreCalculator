@@ -73,10 +73,10 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void testGameScore_w_strike_is_95() {
+	public void testGameScore_w_strike_is_93() {
 		BowlingGame game = new BowlingGame();
 		game.addFrame(new Frame(10,0));
-		game.addFrame(new Frame(5,5));
+		game.addFrame(new Frame(2,6));
 		game.addFrame(new Frame(7,2));
 		game.addFrame(new Frame(3,6));
 		game.addFrame(new Frame(4,4));
