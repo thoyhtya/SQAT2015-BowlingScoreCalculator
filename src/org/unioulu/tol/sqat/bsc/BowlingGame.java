@@ -23,6 +23,7 @@ public class BowlingGame {
 	}
 	
 	public int score(){
+		this.bonus = new Frame(0,0);
 		int score = 0;
 //		boolean bonusFrame = false;
 		
