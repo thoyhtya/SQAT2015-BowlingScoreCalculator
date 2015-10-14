@@ -3,6 +3,7 @@ package org.unioulu.tol.sqat.bsc.tests;
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+import org.unioulu.tol.sqat.bsc.BowlingGame;
 import org.unioulu.tol.sqat.bsc.Frame;
 
 public class TestBowlingScoreCalculator {
@@ -27,6 +28,7 @@ public class TestBowlingScoreCalculator {
 	@Test
 	public void testGameInit() {
 		BowlingGame game = new BowlingGame();
+		game.addFrame(new Frame(1,5));
 	}
 
 }
