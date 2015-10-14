@@ -105,7 +105,7 @@ public class TestBowlingScoreCalculator {
 	}
 	
 	@Test
-	public void testGameScore_w_spare_is_87() {
+	public void testGameScore_w_spare_is_86() {
 		BowlingGame game = new BowlingGame();
 		game.addFrame(new Frame(1,9));
 		game.addFrame(new Frame(2,6));
@@ -117,7 +117,7 @@ public class TestBowlingScoreCalculator {
 		game.addFrame(new Frame(4,5));
 		game.addFrame(new Frame(8,1));
 		game.addFrame(new Frame(2,6));
-		assertEquals(87,game.score());
+		assertEquals(86,game.score());
 	}
 
 }
