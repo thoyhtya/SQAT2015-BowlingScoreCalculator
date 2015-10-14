@@ -28,3 +28,10 @@ EditAction 1444823132366 TestBowlingScoreCalculator.java 398 2 3 1
 UnitTestCaseAction 1444823136373 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444823136374 TestBowlingScoreCalculator FAIL
 EditAction 1444823155145 Frame.java 794 6 7 0
+UnitTestCaseAction 1444823162577 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444823162578 TestBowlingScoreCalculator OK
+RefactoringAction 1444823168735 TestBowlingScoreCalculator.java ADD void testFrameScore_2_6_is_8()/2 METHOD
+RefactoringAction 1444823174251 TestBowlingScoreCalculator.java RENAME testFrameScore_2_6_is_8()/2=>void testFrameScore_0_6_is_8() METHOD
+RefactoringAction 1444823177268 TestBowlingScoreCalculator.java RENAME testFrameScore_0_6_is_8()=>void testFrameScore_0_9_is_8() METHOD
+RefactoringAction 1444823179785 TestBowlingScoreCalculator.java RENAME testFrameScore_0_9_is_8()=>void testFrameScore_0_9_is_9() METHOD
+EditAction 1444823186220 TestBowlingScoreCalculator.java 523 3 5 2

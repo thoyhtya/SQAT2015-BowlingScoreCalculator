@@ -17,5 +17,11 @@ public class TestBowlingScoreCalculator {
 		Frame frame = new Frame(2,6);
 		assertEquals(8, frame.score());
 	}
+	
+	@Test
+	public void testFrameScore_0_9_is_9() {
+		Frame frame = new Frame(0,9);
+		assertEquals(9, frame.score());
+	}
 
 }
