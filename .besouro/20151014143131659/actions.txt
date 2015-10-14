@@ -25,3 +25,6 @@ RefactoringAction 1444823099165 TestBowlingScoreCalculator.java RENAME testFrame
 RefactoringAction 1444823101181 TestBowlingScoreCalculator.java RENAME testFrameScore_2_6_is()=>void testFrameScore_2_6_is_() METHOD
 RefactoringAction 1444823102197 TestBowlingScoreCalculator.java RENAME testFrameScore_2_6_is_()=>void testFrameScore_2_6_is_8() METHOD
 EditAction 1444823132366 TestBowlingScoreCalculator.java 398 2 3 1
+UnitTestCaseAction 1444823136373 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444823136374 TestBowlingScoreCalculator FAIL
+EditAction 1444823155145 Frame.java 794 6 7 0
