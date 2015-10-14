@@ -208,3 +208,8 @@ RefactoringAction 1444827018195 BowlingGame.java RENAME BONUSTYPE_S=>int BONUSTY
 RefactoringAction 1444827053308 BowlingGame.java ADD int BONUSTYPE_SPARE/2 FIELD
 RefactoringAction 1444827057323 BowlingGame.java RENAME BONUSTYPE_SPARE/2=>int BONUSTYPE_NONE FIELD
 EditAction 1444827297687 Frame.java 971 7 8 0
+UnitTestCaseAction 1444827301727 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444827301728 TestBowlingScoreCalculator OK
+RefactoringAction 1444827349044 TestBowlingScoreCalculator.java ADD void testGameScore_w_spare_is_88()/2 METHOD
+RefactoringAction 1444827361571 TestBowlingScoreCalculator.java RENAME testGameScore_w_spare_is_88()/2=>void testGameScore_w_spare_is_87() METHOD
+EditAction 1444827367178 TestBowlingScoreCalculator.java 3373 9 76 7
