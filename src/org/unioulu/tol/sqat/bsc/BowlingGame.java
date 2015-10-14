@@ -25,7 +25,9 @@ public class BowlingGame {
 		
 		for(int i=0; i<frames.size(); i++){	
 			Frame frame = this.frames.get(i);
-//			
+			
+//			This shit works better but I started to redo things
+//
 //			if(bonusFrame){
 //				Frame previusFrame = this.frames.get(i-1);
 //				
@@ -58,7 +60,7 @@ public class BowlingGame {
 		}
 		return score;
 	}
-	
+		
 	public boolean isNextFrameBonus(){
 		return false;
 	}
