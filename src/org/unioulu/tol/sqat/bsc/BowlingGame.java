@@ -20,28 +20,14 @@ public class BowlingGame {
 	
 	public int score(){
 		int score = 0;
-		boolean bonusFrame = false;
 		
 		for(Frame frame : this.frames){	
-			if(isNextFrameBonus(frame)){
-				bonusFrame= true;
-			}else{
-				bonusFrame = false;
-				score += frame.score();
-			}
-			if(bonusFrame){
-				score += frame.score();
-			}else{
-				score += frame.score();			
-			}
+			score += frame.score();
 		}
 		return score;
 	}
 	
-	public boolean isNextFrameBonus(Frame frame){
-		if(frame.isStrike()){
-			return true;
-		}
+	public boolean isNextFrameBonus(){
 		return false;
 	}
 }

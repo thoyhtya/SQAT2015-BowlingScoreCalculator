@@ -165,3 +165,9 @@ CompilationAction 1444825460383 BowlingGame.java
 UnitTestCaseAction 1444825464537 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444825464538 TestBowlingScoreCalculator FAIL
 EditAction 1444825470330 BowlingGame.java 923 5 7 0
+UnitTestCaseAction 1444825473457 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444825473458 TestBowlingScoreCalculator FAIL
+RefactoringAction 1444825521189 BowlingGame.java RENAME isNextFrameBonus(Frame)=>boolean isNextFrameBonus() METHOD
+RefactoringAction 1444825559746 BowlingGame.java RENAME isNextFrameBonus()=>boolean isNextFrameBonus(Frame) METHOD
+RefactoringAction 1444825563762 BowlingGame.java RENAME isNextFrameBonus(Frame)=>boolean isNextFrameBonus() METHOD
+EditAction 1444825663352 BowlingGame.java 637 5 5 0
