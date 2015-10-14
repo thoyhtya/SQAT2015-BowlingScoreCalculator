@@ -97,3 +97,8 @@ UnitTestCaseAction 1444823904829 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444823904830 TestBowlingScoreCalculator FAIL
 RefactoringAction 1444823941975 TestBowlingScoreCalculator.java RENAME testGameScore_is_asd()=>void testGameScore_is_81() METHOD
 EditAction 1444823945619 TestBowlingScoreCalculator.java 1465 5 28 3
+UnitTestCaseAction 1444823951013 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444823951014 TestBowlingScoreCalculator FAIL
+UnitTestCaseAction 1444823964854 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444823964855 TestBowlingScoreCalculator FAIL
+EditAction 1444823970247 BowlingGame.java 646 5 4 0

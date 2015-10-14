@@ -19,7 +19,7 @@ public class BowlingGame {
 	}
 	
 	public int score(){
-		int score = 0;
+		int score = 5;
 		for(Frame frame : frames){
 			score += frame.score();
 		}
