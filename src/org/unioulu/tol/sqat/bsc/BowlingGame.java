@@ -20,8 +20,13 @@ public class BowlingGame {
 	
 	public int score(){
 		int score = 0;
-		for(Frame asd : this.frames){
-			score = score + asd.score();
+		for(Frame frame : this.frames){
+			if(!frame.isStrike()){
+				score = score + frame.score();
+			}else{
+				score += 3 + frame.score();
+			}
+			
 		}
 		return score;
 	}
