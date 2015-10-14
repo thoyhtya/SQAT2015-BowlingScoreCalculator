@@ -24,28 +24,17 @@ public class BowlingGame {
 	
 	public int score(){
 		int score = 0;
-		boolean bonusFrame = false;
 		
 		for(int i=0; i<frames.size(); i++){	
 			Frame frame = this.frames.get(i);
 			
-			if(bonusFrame){
-				if(this.frames.get(i-1).isStrike()){
-					score += frame.score();
-				}else{
-					score += frame.scoreFirstThrow();
-				}
+			if(this.frames.get(i-1).isStrike()){
+				score += frame.score();
+			}else if (this.frames.get(i-1).isStrike()){
+				score += frame.scoreFirstThrow();
 			}
-			
-			score += frame.score();
-			
-			if(frame.isStrike()){
-				bonusFrame = true;
-			}else if(frame.isSpare()){
-				bonusFrame = true;
-			}else{
-				bonusFrame = false;
-			}
+						
+			score += frame.score();			
 		}
 		return score;
 	}
