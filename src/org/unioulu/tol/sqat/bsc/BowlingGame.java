@@ -46,7 +46,8 @@ public class BowlingGame {
 			if(frame.isStrike() || frame.isSpare()){
 				this.bonus = frame;
 			}else{			
-				score += frame.score();
+				score += frame.score() + bonus.score();
+				bonus = new Frame(0,0);
 			}
 			
 //			if(frame.isStrike()){
