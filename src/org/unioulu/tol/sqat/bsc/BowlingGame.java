@@ -27,7 +27,7 @@ public class BowlingGame {
 				bonusFrame= true;
 			}else{
 				bonusFrame = false;
-				score += frame.score()
+				score += frame.score();
 			}
 			if(bonusFrame){
 				score += frame.score();
