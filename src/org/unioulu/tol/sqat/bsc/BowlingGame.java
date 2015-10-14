@@ -21,10 +21,10 @@ public class BowlingGame {
 	public int score(){
 		int score = 0;
 		for(Frame frame : this.frames){
-			if(!frame.isStrike()){
-				score = score + frame.score();
-			}else{
-				score += 3 + 6 + frame.score();
+			if(frame.isStrike()){
+				score += frame.score();
+			}else{				
+				score += frame.score();
 			}
 			
 		}
