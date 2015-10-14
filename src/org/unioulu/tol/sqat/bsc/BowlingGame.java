@@ -25,12 +25,12 @@ public class BowlingGame {
 	public int score(){
 		int score = 0;
 		boolean bonusFrame = false;
-		int bonustype = BONUSTYPE_NONE;
 		
 		for(int i=0; i<frames.size(); i++){	
 			Frame frame = this.frames.get(i);
+			
 			if(bonusFrame){
-				if(bonustype == BONUSTYPE_STRIKE){
+				if(this.frames.get(i-1).isStrike()){
 					score += frame.score();
 				}else{
 					score += frame.scoreFirstThrow();
@@ -41,13 +41,10 @@ public class BowlingGame {
 			
 			if(frame.isStrike()){
 				bonusFrame = true;
-				bonustype = BONUSTYPE_STRIKE;
 			}else if(frame.isSpare()){
 				bonusFrame = true;
-				bonustype = BONUSTYPE_SPARE;
 			}else{
 				bonusFrame = false;
-				bonustype = BONUSTYPE_NONE;
 			}
 		}
 		return score;
