@@ -1,0 +1,13 @@
+1444823024536 refactoring 3 732 true
+1444823024537 regression 2 732 true
+1444823024538 refactoring 2B 732 true
+1444823024539 refactoring 1B 732 true
+1444823067337 refactoring 3 4 true
+1444823067338 refactoring 3 4 true
+1444823067339 refactoring 1B 4 true
+1444823067340 refactoring 2B 4 true
+1444823067341 refactoring 3 4 true
+1444823067342 refactoring 1B 4 true
+1444823067343 refactoring 2B 4 true
+1444823067344 refactoring 3 4 true
+1444823067345 regression 1 4 true
