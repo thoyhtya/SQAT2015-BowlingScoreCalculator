@@ -27,7 +27,8 @@ public class BowlingGame {
 		boolean bonusFrame = false;
 		int bonustype = BONUSTYPE_NONE;
 		
-		for(Frame frame : this.frames){	
+		for(int i=0; i<frames.size(); i++){	
+			Frame frame = this.frames.get(i);
 			if(bonusFrame){
 				if(bonustype == BONUSTYPE_STRIKE){
 					score += frame.score();
