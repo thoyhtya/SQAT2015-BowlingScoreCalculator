@@ -13,6 +13,10 @@ public class Frame {
 	public int score(){
 		return this.firstThrow + this.secondThrow;
 	}
+	
+	public int scoreFirstThrow(){
+		return this.firstThrow;
+	}
 
 	//returns whether the frame is a strike or not
 	public boolean isStrike(){
