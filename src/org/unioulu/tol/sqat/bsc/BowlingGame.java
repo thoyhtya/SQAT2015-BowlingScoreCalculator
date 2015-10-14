@@ -26,7 +26,7 @@ public class BowlingGame {
 		int score = 0;
 //		boolean bonusFrame = false;
 		
-		for(int i=0; i<=frames.size(); i++){	
+		for(int i=0; i<frames.size(); i++){	
 			Frame frame = this.frames.get(i);
 //			
 //			if(bonusFrame){
