@@ -53,3 +53,15 @@ CompilationAction 1444823333171 TestBowlingScoreCalculator.java
 UnitTestCaseAction 1444823333633 TestBowlingScoreCalculator.java OK
 UnitTestSessionAction 1444823333634 TestBowlingScoreCalculator OK
 EditAction 1444823445001 TestBowlingScoreCalculator.java 690 4 7 2
+UnitTestCaseAction 1444823450333 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444823450334 TestBowlingScoreCalculator OK
+RefactoringAction 1444823482240 TestBowlingScoreCalculator.java ADD void testGameInit()/2 METHOD
+RefactoringAction 1444823486753 TestBowlingScoreCalculator.java RENAME testGameInit()/2=>void testGameD() METHOD
+RefactoringAction 1444823487769 TestBowlingScoreCalculator.java RENAME testGameD()=>void testGame() METHOD
+RefactoringAction 1444823489287 TestBowlingScoreCalculator.java RENAME testGame()=>void testGameScore() METHOD
+RefactoringAction 1444823499805 TestBowlingScoreCalculator.java RENAME testGameScore()=>void testGameScore_is() METHOD
+RefactoringAction 1444823500824 TestBowlingScoreCalculator.java RENAME testGameScore_is()=>void testGameScore_is_() METHOD
+RefactoringAction 1444823502843 TestBowlingScoreCalculator.java RENAME testGameScore_is_()=>void testGameScore_is_81() METHOD
+RefactoringAction 1444823622224 TestBowlingScoreCalculator.java RENAME testGameScore_is_81()=>void testGameInit()/2 METHOD
+RefactoringAction 1444823624744 TestBowlingScoreCalculator.java REMOVE testGameInit()/2 METHOD
+EditAction 1444823627346 TestBowlingScoreCalculator.java 997 4 16 2
