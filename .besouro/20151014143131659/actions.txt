@@ -119,3 +119,4 @@ RefactoringAction 1444824079275 TestBowlingScoreCalculator.java ADD void testGam
 RefactoringAction 1444824151863 TestBowlingScoreCalculator.java ADD void testGameScore_is_81()/2 METHOD
 RefactoringAction 1444824155885 TestBowlingScoreCalculator.java REMOVE testGameScore_is_81()/2 METHOD
 EditAction 1444824160645 BowlingGame.java 658 5 5 0
+EditAction 1444824166434 TestBowlingScoreCalculator.java 1465 5 28 3
