@@ -20,9 +20,20 @@ public class BowlingGame {
 	
 	public int score(){
 		int score = 0;
+		boolean bonusFrame = false;
 		
 		for(Frame frame : this.frames){	
+			if(bonusFrame){
+				score += frame.score();
+			}
+			
 			score += frame.score();
+			
+			if(frame.isStrike()){
+				bonusFrame = true;
+			}else{
+				bonusFrame = false;
+			}
 		}
 		return score;
 	}
