@@ -16,7 +16,7 @@ public class Frame {
 
 	//returns whether the frame is a strike or not
 	public boolean isStrike(){
-		if(firstThrow == 10){
+		if(this.firstThrow == 10){
 			return true;
 		}else{
 			return false;
@@ -25,8 +25,11 @@ public class Frame {
 	
 	//return whether a frame is a spare or not
 	public boolean isSpare(){
-		//to be implemented
-		return false;
+		if(this.firstThrow + this.secondThrow == 10){
+			return true;
+		}else{
+			return false;
+		}		
 	}
 
 	//return whether this is the last frame of the match
