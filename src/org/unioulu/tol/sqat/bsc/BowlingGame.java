@@ -32,7 +32,7 @@ public class BowlingGame {
 			if(bonusFrame){
 				Frame previusFrame = this.frames.get(i-1);
 				
-				if(i>1 && this.frames.get(i-2).isStrike()){
+				if(i>2 && this.frames.get(i-2).isStrike()){
 					score += frame.score();
 				}
 				
