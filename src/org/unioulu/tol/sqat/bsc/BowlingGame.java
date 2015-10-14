@@ -3,11 +3,7 @@ package org.unioulu.tol.sqat.bsc;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BowlingGame {
-	int BONUSTYPE_NONE = 0;
-	int BONUSTYPE_SPARE = 1;
-	int BONUSTYPE_STRIKE = 2;
-	
+public class BowlingGame {	
 	//a bowling game is made of (at least) 10 frames
 	private List<Frame> frames = new ArrayList<Frame>();
 	private Frame bonus;
@@ -45,6 +41,7 @@ public class BowlingGame {
 //			}
 			
 			if(frame.isStrike() || frame.isSpare()){
+				score += frame.score();
 				this.bonus = frame;
 			}else{			
 				score += frame.score() + this.bonus.score();
