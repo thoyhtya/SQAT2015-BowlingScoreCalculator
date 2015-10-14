@@ -30,10 +30,7 @@ public class BowlingGame {
 			Frame frame = this.frames.get(i);
 			
 			if(bonusFrame){
-				Frame previous = this.frames.get(i-1);
-				if(this.frames.get(i-1).isStrike() && this.frames.get(i-1).isStrike()){
-					
-				}else if(this.frames.get(i-1).isStrike()){
+				if(this.frames.get(i-1).isStrike()){
 					score += frame.score();
 				}else if (this.frames.get(i-1).isStrike()){
 					score += frame.scoreFirstThrow();
@@ -42,7 +39,9 @@ public class BowlingGame {
 			
 			score += frame.score();
 			
-			if(frame.isStrike() || frame.isSpare()){
+			if(frame.isStrike()){
+				bonusFrame = true;
+			}else if(frame.isSpare()){
 				bonusFrame = true;
 			}else{
 				bonusFrame = false;
